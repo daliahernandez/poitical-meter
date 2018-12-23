@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link  href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Political</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="userAnswers">
+        <h3>Take quiz to see which political party you're with</h3>
+          <div class="radio">
+            <label>
+              <h5>1.There should be no laws regarding sex for consenting adults.</h5>
+              <input type="radio" name="law" value="lawYes">yes <br>
+              <input type="radio" name="law" value="lawNo">no
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <h5>2.Repeal laws prohibiting adult possession and use of drugs.</h5>
+              <input type="radio" name="drugs" value="drugsYes">Yes <br>
+              <input type="radio" name="drugs" value="drugsNo">No
+            </label>
+          </div>
+
+          <div class="radio">
+            <h5>3.Government should not censor speech, press, media, or internet</h5>
+            <label>
+              <input type="radio" name="media" value="mediaYes">Yes <br>
+              <input type="radio" name="media" value="mediaNo">No
+            </label>
+          </div>
+
+          <div class="radio">
+            <h5>4.There should be no National ID card.</h5>
+            <label>
+              <input type="radio" name="id" value="idYes">Yes <br>
+              <input type="radio" name="id" value="idNo">No
+            </label>
+          </div>
+        <button type="submit" class="btn btn-primary">Submit!</button>
+      </form>
+        <div class="result">
+          <span class="answer"></span>
+        </div>
+    </div>
+  </body>
+</html>
